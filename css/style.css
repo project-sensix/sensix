@@ -1,0 +1,390 @@
+/*
+von mir
+*/
+
+.topic {
+    color: #ff5252 !important;
+}
+
+.card-title {
+    color: #000000 !important;
+}
+
+.text-red {
+    color: #ff5252 !important;
+}
+
+.progress {
+    height: 15px !important;
+    background-color: #b2dfdb !important;
+    border-radius: 5px !important;
+}
+
+.progress .determinate {
+    border-radius: 5px !important;
+    background-color: #ff5252 !important;
+}
+
+.meilenstein {
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.placeholder {
+    opacity: 0.5;
+}
+
+.gray {
+    background-color: #f7f7f7;
+}
+
+.tr-teal {
+    background-color: #009688;
+    color: #FFFFFF;
+}
+
+tbody {
+    border-radius: 5px !important;
+}
+
+td {
+    padding-left: 3em !important;
+    padding-right: 3em !important;
+    max-height: 53px !important;
+}
+
+.download {
+    max-height: 40px !important;
+    max-width: 40px !important;
+}
+
+.other-padding {
+    vertical-align: middle !important;
+    padding: 7px !important;
+}
+
+.red-button {
+    background-color: #ff5252 !important;
+}
+
+.thick {
+    color: #ff5252 !important;
+    font-weight: bold;
+}
+
+.material-icons {
+    line-height: inherit !important;
+}
+
+.under_construction {
+    -webkit-animation: cssAnimation 3s 16 linear;
+    -webkit-animation-iteration-count: infinite;
+    -moz-animation: cssAnimation 3s 16 linear;
+    -moz-animation-iteration-count: infinite;
+    -o-animation: cssAnimation 3s 16 linear;
+    -o-animation-iteration-count: infinite;
+    animation: cssAnimation 3s 16 linear;
+    animation-iteration-count: infinite;
+}
+@keyframes cssAnimation {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+        transform: rotate(0deg);}
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+.footer {
+    vertical-align: middle !important;
+    height: 60px;
+    line-height: 60px;
+    color: #ffffff;
+    background-color: #00695c;
+}
+
+
+
+
+/** Hinzugefügt von ALI **/
+
+/* Damit die Table einen runden border bekommt */
+.border-radius {
+    border-radius: 2px;
+    background-color: #009688;
+    color: #FFFFFF;
+}
+
+/** Damit einzelne Zeilen der Table einen weißen Hintergrund une eine schwarze Schrift bekommen */
+.white-bg {
+    background-color: #FFFFFF !important;
+    color: #bdbdbd!important;
+}
+
+/** Damit die letzte Zeile der Table unten keinen Rahmen bekommt */
+.no-border-bottom {
+    border-bottom: 0 !important;
+}
+
+.progress-percentage {
+    width: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+vom Template
+*/
+
+
+.default_color{background-color: #009688 !important}
+
+#index-banner {
+    min-height: 632px;
+    max-height: 864px;
+    position: relative;
+    background-color: #009688;
+}
+
+#nav_f{
+    box-shadow: none !important; 
+    -webkit-box-shadow:none !important;
+}
+
+.brand-logo {
+    position: absolute;
+    color: #fff;
+    display: inline-block;
+    font-size: 2.1rem;
+    font-style: normal;
+    font-weight: 100;
+    padding: 0;
+    letter-spacing: 7px;
+}
+
+.text_h {
+    padding: 15% 0;
+    font-size: 6.0em;
+    font-weight: 100;
+    color: white;
+}
+
+.card-content a {color: #009688;}
+
+.card-content a:hover {color: #009688;}
+
+nav ul a {
+    font-size: 1.2rem;
+    color: #FFF;
+    letter-spacing: 2px;
+    display: block;
+    font-weight: 300;
+    padding: 0px 15px;
+}
+
+.cd-headline.type .cd-words-wrapper {
+    vertical-align: top;
+    overflow: hidden;
+}
+
+.cd-headline.type .cd-words-wrapper::after {
+    /* vertical bar */
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 90%;
+    width: 1px;
+    background-color: #aebcb9;
+}
+
+.cd-headline.type .cd-words-wrapper.waiting::after {
+    -webkit-animation: cd-pulse 1s infinite;
+    -moz-animation: cd-pulse 1s infinite;
+    animation: cd-pulse 1s infinite;
+}
+.cd-headline.type .cd-words-wrapper.selected {
+    background-color: #FFF;
+}
+
+.cd-headline.type .cd-words-wrapper.selected::after {
+    visibility: hidden;
+}
+
+.cd-headline.type .cd-words-wrapper.selected b {
+    color: #009688;
+}
+
+.cd-headline.type b {
+    visibility: hidden;
+}
+
+.cd-headline.type b.is-visible {
+    visibility: visible;
+}
+
+.cd-headline.type i {
+    position: absolute;
+    visibility: hidden;
+}
+.cd-headline.type i.in {
+    position: relative;
+    visibility: visible;
+}
+
+@-webkit-keyframes cd-pulse {
+    0% {
+        -webkit-transform: translateY(-50%) scale(1);
+        opacity: 1;
+    }
+    40% {
+        -webkit-transform: translateY(-50%) scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(-50%) scale(0);
+        opacity: 0;
+    }
+}
+@-moz-keyframes cd-pulse {
+    0% {
+        -moz-transform: translateY(-50%) scale(1);
+        opacity: 1;
+    }
+    40% {
+        -moz-transform: translateY(-50%) scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        -moz-transform: translateY(-50%) scale(0);
+        opacity: 0;
+    }
+}
+
+@keyframes cd-pulse {
+    0% {
+        -webkit-transform: translateY(-50%) scale(1);
+        -moz-transform: translateY(-50%) scale(1);
+        -ms-transform: translateY(-50%) scale(1);
+        -o-transform: translateY(-50%) scale(1);
+        transform: translateY(-50%) scale(1);
+        opacity: 1;
+    }
+    40% {
+        -webkit-transform: translateY(-50%) scale(0.9);
+        -moz-transform: translateY(-50%) scale(0.9);
+        -ms-transform: translateY(-50%) scale(0.9);
+        -o-transform: translateY(-50%) scale(0.9);
+        transform: translateY(-50%) scale(0.9);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(-50%) scale(0);
+        -moz-transform: translateY(-50%) scale(0);
+        -ms-transform: translateY(-50%) scale(0);
+        -o-transform: translateY(-50%) scale(0);
+        transform: translateY(-50%) scale(0);
+        opacity: 0;
+    }
+}
+
+/*
+/* Preloader
+#preloader {
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff; /* change if the mask should have another color then white
+    z-index:1200; /* makes sure it stays on top
+}
+*/
+
+/*
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%; /* centers the loading animation horizontally one the screen
+    top:50%; /* centers the loading animation vertically one the screen
+    background-image:url(../img/status.gif); /* path to your loading animation
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px; /* is width and height divided by two
+}
+*/
+
+@media only screen and (max-width: 480px) {
+    .text_h {
+        padding: 4% 0;
+        font-size: 5em;
+        font-weight: 100;
+        color: white;
+    }
+}
+
+input, textarea {
+    border-bottom: 1px solid #fff;
+}
+
+nav a.button-collapse {
+    left: -25px;
+}
+
+.card-avatar .waves-effect {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.card-avatar img {
+    height: 150px;
+    width: 150px;
+    border-radius: 75px;
+}
+
+.card-avatar .card-content {
+    text-align: center;
+}
+
+.card .card-content p {
+    margin: 15px 0px;
+}
+
+.card-avatar .card-content i {
+   font-size: 1.5rem;
+}
+
+.card-avatar .card-content {
+    line-height: 30px !important;
+}
+
+.parallax-container {
+    max-height: 400px;
+}
+
+footer.page-footer {
+    margin-top: 0px !important;
+}
