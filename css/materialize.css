@@ -5404,7 +5404,7 @@ nav {
 
 @font-face {
   font-family: "Roboto";
-  src: url("../font/roboto/Roboto-Bold.woff2") format("woff2"), url("../font/roboto/Roboto-Bold.woff") format("woff"), url("../font/roboto/Roboto-Bold.ttf") format("truetype");
+  src: url("https://fonts.googleapis.com/css?family=Roboto:700") format("woff2"), url("https://fonts.googleapis.com/css?family=Roboto:700") format("woff"), url("https://fonts.googleapis.com/css?family=Roboto:700") format("truetype");
   font-weight: 700; }
 
 a {
